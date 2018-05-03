@@ -1,9 +1,10 @@
 var express = require("express");
 var app = express();
-import style from "./main/style/style.css"
+
 
 app.set("view engine", "pug");
 app.set("views", "./views");
+app.use(express.static("assets"));
 
 app.get("/", function(req, res) {
   res.render("welcome");
