@@ -1,0 +1,35 @@
+.login-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 200px;
+  width: 500px;
+  border: 1px solid #b2bec3;
+  border-radius: 15px;
+}
+
+.text-reply {
+    color: #00b894;
+}
+
+.content {
+  height: 100vh;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.button {
+  padding: 15px 10px;
+  background-color: #74b9ff;
+  border-radius: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.logbutton:hover {
+  background-color: #0984e3;
+}

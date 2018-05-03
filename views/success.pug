@@ -1,0 +1,13 @@
+doctype html
+html(lang='pl')
+html
+    head
+        meta(charset='UTF-8')
+        title="Zalogowano"
+    body
+        p Cześć
+        
+        if(user.name.length > 0 && user.email.length > 0 )
+            p Imię  #{user.name}, email #{user.email}
+        else 
+            p Nie poddawaj się i próbuj do skutku;P 
